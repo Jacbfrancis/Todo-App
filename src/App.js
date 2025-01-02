@@ -61,7 +61,20 @@ function TodoList() {
           <div>
             <span>
               <i className="icon fa-regular fa-circle"></i>
-              <p>Visit Nkechi and Amaka</p>
+              <p>Attend PTA meeting</p>
+            </span>
+            <span>
+              <i className="icon pen-icon fa-solid fa-pen-fancy"></i>
+              <i className="icon trash-icon fa-regular fa-trash-can"></i>
+            </span>
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <span>
+              <i className="icon fa-regular fa-circle"></i>
+              <p>Go to the supermarket</p>
             </span>
             <span>
               <i className="icon pen-icon fa-solid fa-pen-fancy"></i>

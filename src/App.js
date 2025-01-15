@@ -20,10 +20,10 @@ function Header() {
 
 function SubmitInput() {
   return (
-    <div className="submit-input">
+    <form className="submit-input">
       <input placeholder="Enter Task Here" />
       <button className="submit-btn">Add Task</button>
-    </div>
+    </form>
   );
 }
 

@@ -56,6 +56,19 @@ function TodoList() {
             </span>
           </div>
         </li>
+
+        <li>
+          <div>
+            <span>
+              <i className="icon fa-regular fa-circle"></i>
+              <p>Eat Healthy</p>
+            </span>
+            <span>
+              <i className="icon pen-icon fa-solid fa-pen-fancy"></i>
+              <i className="icon trash-icon fa-regular fa-trash-can"></i>
+            </span>
+          </div>
+        </li>
       </ul>
     </div>
   );

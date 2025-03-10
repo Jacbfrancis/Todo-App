@@ -33,7 +33,7 @@ The challenge was to build a functional Todo List application that allows users 
 
 - ##### Desktop View
 
-![](./public/Screenshot_1.png)
+![Screenshot](public/screenshot_1.png)
 
 ### 🌍 Live Demo
 

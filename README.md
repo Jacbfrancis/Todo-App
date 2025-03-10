@@ -18,13 +18,7 @@ This is a simple and intuitive To-Do List App built using React. It allows users
 
 ### 🚀 The challenge
 
-The goal of this project was to build a functional To-Do List App where users can:
-
-- Add new tasks
-- Mark tasks as completed
-- Edit existing tasks
-- Delete tasks when no longer needed
-- Prevent duplicate tasks from being added
+The challenge was to build a functional Todo List application that allows users to efficiently manage tasks by adding, editing, completing, and deleting them while maintaining a simple and user-friendly interface.
 
 ### ✨ Features
 

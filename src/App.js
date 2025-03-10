@@ -19,7 +19,11 @@ export default function App() {
         todoList={todoList}
         setTodoList={setTodoList}
       />
-      <List todoList={todoList} setTodoList={setTodoList} />
+      <List
+        todoList={todoList}
+        setTodoList={setTodoList}
+        setNewInput={setNewInput}
+      />
     </div>
   );
 }
@@ -69,9 +73,9 @@ function SubmitInput({ setNewInput, newInput, todoList, setTodoList }) {
   );
 }
 
-function List({ todoList, setTodoList }) {
+function List({ todoList, setTodoList, setNewInput }) {
   function handleDeleteTask(todoToRemove) {
-    setTodoList(todoList.filter((todo) => todo !== todoToRemove));
+    setTodoList((prev) => prev.filter((todo) => todo !== todoToRemove));
   }
 
   function handleCompletedTask(todoToCheck) {
@@ -79,6 +83,13 @@ function List({ todoList, setTodoList }) {
       prev.map((todo) =>
         todo === todoToCheck ? { ...todo, completed: !todo.completed } : todo
       )
+    );
+  }
+
+  function handleEditTask(todoToEdit) {
+    todoList.map(
+      (todo) => todo === todoToEdit && setNewInput(todo.description),
+      setTodoList((prev) => prev.filter((todo) => todo !== todoToEdit))
     );
   }
 
@@ -103,7 +114,10 @@ function List({ todoList, setTodoList }) {
                   </p>
                 </span>
                 <span>
-                  <i className="icon pen-icon fa-solid fa-pen-fancy"></i>
+                  <i
+                    className="icon pen-icon fa-solid fa-pen-fancy"
+                    onClick={() => handleEditTask(todo)}
+                  ></i>
                   <i
                     className="icon trash-icon fa-regular fa-trash-can"
                     onClick={() => handleDeleteTask(todo)}

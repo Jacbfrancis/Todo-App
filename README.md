@@ -37,13 +37,13 @@ The challenge was to build a functional Todo List application that allows users 
 
 ### 🌍 Live Demo
 
-- 🔗 View Live Project: [live Site](https://)
+- 🔗 View Live Project: [live Site](https://todo-app-jacb.netlify.app/)
 
 ### 💻 Tech Stack
 
 - React (Functional Components & Hooks)
 - CSS (for styling)
-- Font Awesome (for icons
+- Font Awesome (for icons)
 
 ### 📚 Things I Learned
 

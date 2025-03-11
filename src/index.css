@@ -113,3 +113,21 @@ li span {
 .completed {
   text-decoration: line-through;
 }
+
+@media (max-width: 850px) {
+  .container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    width: 95%;
+  }
+}

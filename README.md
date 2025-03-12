@@ -37,7 +37,7 @@ The challenge was to build a functional Todo List application that allows users 
 
 ### 🌍 Live Demo
 
-- 🔗 View Live Project: [live Site](https://todo-app-jacb.netlify.app/)
+- 🔗 View Live Project: [Demo](https://todo-app-jacb.netlify.app/)
 
 ### 💻 Tech Stack
 
